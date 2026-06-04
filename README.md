@@ -10,7 +10,6 @@
 [![Vite](https://img.shields.io/badge/Vite-8.0-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev)
 [![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-2.12-764ABC?style=flat-square&logo=redux&logoColor=white)](https://redux-toolkit.js.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 A polished, portfolio-worthy gaming storefront built with React and Redux Toolkit, featuring a neon-inspired shopping experience, cart and wishlist management, protected checkout flow, and responsive product browsing.
 
