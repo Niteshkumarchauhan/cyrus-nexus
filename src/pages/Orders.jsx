@@ -8,7 +8,9 @@ function Orders() {
 
   return (
     <section className="space-y-6">
-      <h1 className="text-3xl font-bold text-slate-900 dark:text-white">Orders</h1>
+      <h1 className="text-3xl font-bold text-slate-900 dark:text-white">
+        Orders
+      </h1>
       {orders.length === 0 ? (
         <p className="theme-card rounded-3xl p-6 text-slate-700 dark:text-slate-200">
           No orders yet. Place one from the checkout page.
@@ -17,13 +19,17 @@ function Orders() {
         orders.map((order) => (
           <article
             key={order.id}
-            className="rounded-3xl bg-white p-5 dark:bg-slate-900"
+            className="rounded-3xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900"
           >
             <div className="flex justify-between text-sm text-slate-600 dark:text-slate-300">
               <span>{order.createdAt}</span>
-              <strong className="text-cyan-700 dark:text-cyan-100">$ {order.total}</strong>
+              <strong className="text-cyan-700 dark:text-cyan-100">
+                $ {order.total}
+              </strong>
             </div>
-            <p className="mt-2 text-slate-900 dark:text-white">Buyer: {order.user}</p>
+            <p className="mt-2 text-slate-900 dark:text-white">
+              Buyer: {order.user}
+            </p>
             <p className="text-slate-600 dark:text-slate-300">
               Address: {order.address || "No address given"}
             </p>

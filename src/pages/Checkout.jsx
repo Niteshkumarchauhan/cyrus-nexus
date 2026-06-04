@@ -41,8 +41,10 @@ function Checkout() {
 
   return (
     <section className="grid gap-6 lg:grid-cols-[1fr_360px]">
-      <div className="rounded-3xl bg-white p-5 dark:bg-slate-900">
-        <h1 className="text-3xl font-bold text-slate-900 dark:text-white">Checkout</h1>
+      <div className="rounded-3xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900">
+        <h1 className="text-3xl font-bold text-slate-900 dark:text-white">
+          Checkout
+        </h1>
         <p className="mt-2 text-slate-600 dark:text-slate-300">
           Enter your delivery details and place the order.
         </p>
@@ -61,8 +63,10 @@ function Checkout() {
         </button>
       </div>
 
-      <aside className="rounded-3xl bg-white p-5 dark:bg-slate-900">
-        <h2 className="text-xl font-semibold text-slate-900 dark:text-white">Order Summary</h2>
+      <aside className="rounded-3xl border border-slate-200 bg-white p-5 dark:border-slate-700 dark:bg-slate-900">
+        <h2 className="text-xl font-semibold text-slate-900 dark:text-white">
+          Order Summary
+        </h2>
         <ul className="mt-4 space-y-2 text-sm text-slate-700 dark:text-slate-200">
           {items.map((item) => (
             <li key={item.id} className="flex justify-between">

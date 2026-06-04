@@ -11,9 +11,11 @@ function Wishlist() {
 
   return (
     <section className="space-y-6">
-      <h1 className="text-3xl font-bold text-slate-900 dark:text-white">Wishlist</h1>
+      <h1 className="text-3xl font-bold text-slate-900 dark:text-white">
+        Wishlist
+      </h1>
       {items.length === 0 ? (
-        <p className="rounded-3xl bg-white p-6 text-slate-700 dark:bg-slate-900 dark:text-slate-200">
+        <p className="rounded-3xl border border-slate-200 bg-white p-6 text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200">
           No saved products yet. Tap the heart on any product.
         </p>
       ) : (

@@ -16,9 +16,11 @@ function Cart() {
 
   return (
     <section className="space-y-6">
-      <h1 className="text-3xl font-bold text-slate-900 dark:text-white">Your Cart</h1>
+      <h1 className="text-3xl font-bold text-slate-900 dark:text-white">
+        Your Cart
+      </h1>
       {items.length === 0 ? (
-        <p className="rounded-3xl bg-white p-6 text-slate-700 dark:bg-slate-900 dark:text-slate-200">
+        <p className="rounded-3xl border border-slate-200 bg-white p-6 text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200">
           Your cart is empty. Add products from the shop page.
         </p>
       ) : (
@@ -27,7 +29,7 @@ function Cart() {
             {items.map((item) => (
               <article
                 key={item.id}
-                className="flex flex-col gap-4 rounded-3xl bg-white p-4 md:flex-row md:items-center md:justify-between dark:bg-slate-900"
+                className="flex flex-col gap-4 rounded-3xl border border-slate-200 bg-white p-4 md:flex-row md:items-center md:justify-between dark:border-slate-700 dark:bg-slate-900"
               >
                 <div className="flex items-center gap-4">
                   <img
@@ -39,7 +41,9 @@ function Cart() {
                     <h2 className="text-xl font-semibold text-slate-900 dark:text-white">
                       {item.name}
                     </h2>
-                    <p className="text-sm text-slate-600 dark:text-slate-300">$ {item.price}</p>
+                    <p className="text-sm text-slate-600 dark:text-slate-300">
+                      $ {item.price}
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
@@ -84,7 +88,9 @@ function Cart() {
           </div>
 
           <aside className="theme-panel rounded-3xl p-5">
-            <h2 className="text-xl font-semibold text-slate-900 dark:text-white">Summary</h2>
+            <h2 className="text-xl font-semibold text-slate-900 dark:text-white">
+              Summary
+            </h2>
             <div className="mt-4 space-y-2 text-sm text-slate-700 dark:text-slate-200">
               <div className="flex justify-between">
                 Subtotal <strong>$ {total}</strong>
