@@ -1,16 +1,56 @@
-# React + Vite
+# Cyrus Nexus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern gaming e-commerce experience built with React, Vite, Redux Toolkit, and React Router. Cyrus Nexus combines a neon-inspired storefront with shopping essentials such as product browsing, cart management, wishlist tracking, checkout flow, and order history.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Cyrus Nexus is designed as a polished front-end storefront for gaming enthusiasts. It showcases a visually rich landing page, product catalog, and user-facing shopping journey in a clean and responsive interface.
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Gaming-themed landing page and product discovery experience
+- Product catalog with detailed product views
+- Shopping cart and quantity updates
+- Wishlist management for saved items
+- Protected checkout and order history flow
+- Responsive layout for desktop and mobile screens
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite
+- React Router DOM
+- Redux Toolkit
+- Tailwind CSS
+- ESLint
+
+## Getting Started
+
+1. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+2. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+
+3. Build for production
+   ```bash
+   npm run build
+   ```
+
+## Project Structure
+
+- src/pages — main application pages
+- src/components — reusable UI components
+- src/store — Redux slices and store setup
+- src/data — product catalog data
+- src/utils — validation helpers
+
+## License
+
+This project is for learning and portfolio purposes.
