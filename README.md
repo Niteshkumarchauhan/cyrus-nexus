@@ -1,56 +1,126 @@
-# Cyrus Nexus
+<div align="center">
 
-A modern gaming e-commerce experience built with React, Vite, Redux Toolkit, and React Router. Cyrus Nexus combines a neon-inspired storefront with shopping essentials such as product browsing, cart management, wishlist tracking, checkout flow, and order history.
+# ⚡ Cyrus Nexus
 
-## Overview
+### A Modern Gaming E-Commerce Experience
 
-Cyrus Nexus is designed as a polished front-end storefront for gaming enthusiasts. It showcases a visually rich landing page, product catalog, and user-facing shopping journey in a clean and responsive interface.
+**React 19 · Vite 8 · Redux Toolkit · Tailwind CSS v4**
 
-## Key Features
+[![React](https://img.shields.io/badge/React-19.2-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-8.0-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev)
+[![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-2.12-764ABC?style=flat-square&logo=redux&logoColor=white)](https://redux-toolkit.js.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-- Gaming-themed landing page and product discovery experience
-- Product catalog with detailed product views
-- Shopping cart and quantity updates
-- Wishlist management for saved items
-- Protected checkout and order history flow
-- Responsive layout for desktop and mobile screens
+A polished, portfolio-worthy gaming storefront built with React and Redux Toolkit, featuring a neon-inspired shopping experience, cart and wishlist management, protected checkout flow, and responsive product browsing.
 
-## Tech Stack
+[Features](#-features) · [Quick Start](#-quick-start) · [Project Structure](#-project-structure) · [Tech Stack](#-tech-stack)
 
-- React 19
-- Vite
-- React Router DOM
-- Redux Toolkit
-- Tailwind CSS
-- ESLint
+</div>
 
-## Getting Started
+---
 
-1. Install dependencies
+## 🖥️ Live Preview
 
-   ```bash
-   npm install
-   ```
+> Run locally with `npm run dev` → open [http://localhost:5173](http://localhost:5173)
 
-2. Start the development server
+| Section              | Description                                     |
+| -------------------- | ----------------------------------------------- |
+| **Home**             | Gaming-themed landing page and featured content |
+| **Shop**             | Product catalog with category-based browsing    |
+| **Cart**             | Add, remove, and update quantities              |
+| **Wishlist**         | Save favourite gaming gear                      |
+| **Checkout**         | Protected purchasing flow                       |
+| **Orders & Profile** | User account and order history                  |
 
-   ```bash
-   npm run dev
-   ```
+---
 
-3. Build for production
-   ```bash
-   npm run build
-   ```
+## ✨ Features
 
-## Project Structure
+- 🎮 **Gaming Storefront** — Neon-inspired, immersive shopping experience
+- 🛍️ **Product Catalog** — Browse products with detailed views
+- 🛒 **Cart Management** — Add, remove, and update quantities
+- ❤️ **Wishlist** — Save products for later
+- 🔐 **Protected Flow** — Checkout, orders, and profile access
+- 📱 **Responsive UI** — Optimized for desktop and mobile screens
+- ⚡ **Modern Stack** — React 19, Vite 8, Redux Toolkit, Tailwind CSS v4
 
-- src/pages — main application pages
-- src/components — reusable UI components
-- src/store — Redux slices and store setup
-- src/data — product catalog data
-- src/utils — validation helpers
+---
 
-## License
+## ⚡ Quick Start
 
-This project is for learning and portfolio purposes.
+### Prerequisites
+
+Make sure you have these installed:
+
+```bash
+Node.js >= 18.x
+npm >= 9.x
+```
+
+### Installation
+
+```bash
+# 1. Install dependencies
+npm install
+
+# 2. Start the development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Available Scripts
+
+| Command           | Description                          |
+| ----------------- | ------------------------------------ |
+| `npm run dev`     | Start the development server         |
+| `npm run build`   | Build the production bundle          |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint`    | Run ESLint across the project        |
+
+---
+
+## 🗂️ Project Structure
+
+```bash
+src/
+├── components/     # Reusable UI components
+├── pages/          # Home, Shop, Cart, Wishlist, Checkout, Orders, Profile
+├── store/          # Redux slices and store configuration
+├── data/           # Product catalog data
+└── utils/          # Validation and helper logic
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology       | Version | Role                    |
+| ---------------- | ------- | ----------------------- |
+| React            | 19.2    | UI library              |
+| Vite             | 8.0     | Build tool + dev server |
+| Redux Toolkit    | 2.12    | State management        |
+| React Router DOM | 7.16    | Client-side routing     |
+| Tailwind CSS     | v4.3    | Styling                 |
+| ESLint           | 10.3    | Code quality            |
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
+
+---
+
+<div align="center">
+
+Built with ❤️ by **Nitesh Kumar Chauhan**
+
+_React · Vite · Redux Toolkit · Tailwind CSS_
+
+</div>
